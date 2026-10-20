@@ -1,0 +1,15 @@
+{
+  "name": "firebase-rules-audit",
+  "version": "1.0.0",
+  "description": "Static audit of Firebase Firestore & Storage security rules for open access, missing auth checks and anon grants. Zero dependencies.",
+  "license": "MIT",
+  "author": "Cenk Kurtoglu <cnkkurtoglu@gmail.com>",
+  "repository": { "type": "git", "url": "git+https://github.com/cekuu35/firebase-rules-audit.git" },
+  "homepage": "https://github.com/cekuu35/firebase-rules-audit#readme",
+  "bugs": "https://github.com/cekuu35/firebase-rules-audit/issues",
+  "bin": { "firebase-rules-audit": "bin/frules.js" },
+  "files": ["bin", "examples", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["firebase", "firestore", "security-rules", "audit", "security", "static-analysis", "firebase-storage"]
+}
